@@ -1,4 +1,5 @@
 ﻿using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
 using System.Collections.Immutable;
@@ -11,7 +12,7 @@ namespace NF.UnityTools.Essentials.Generator
     [Generator]
     public class DefineEditorGenerator : IIncrementalGenerator
     {
-        private const string ATTR_NAME = "UnityProjectDefine";
+        private const string ATTR_NAME = "NF.UnityTools.Essentials.DefineManagement.UnityProjectDefineAttribute";
 
         public void Initialize(IncrementalGeneratorInitializationContext context)
         {
@@ -25,39 +26,67 @@ namespace NF.UnityTools.Essentials.Generator
 
         private bool IsEnumTargetForGeneration(SyntaxNode node, CancellationToken token)
         {
-            return node is EnumDeclarationSyntax enumDeclarationSyntax
-                && enumDeclarationSyntax.AttributeLists
-                    .SelectMany(attrList => attrList.Attributes)
-                    .Any(attr => attr.Name.ToString() == ATTR_NAME);
+            return node is EnumDeclarationSyntax;
         }
 
         private static EnumDeclarationSyntax GetSemanticTargetForGeneration(GeneratorSyntaxContext context, CancellationToken token)
         {
-            EnumDeclarationSyntax enumDeclarationSyntax = (EnumDeclarationSyntax)context.Node;
-            return enumDeclarationSyntax;
+            EnumDeclarationSyntax enumDeclaration = (EnumDeclarationSyntax)context.Node;
+
+            foreach (AttributeListSyntax attrList in enumDeclaration.AttributeLists)
+            {
+                foreach (AttributeSyntax attr in attrList.Attributes)
+                {
+                    SymbolInfo symbolInfo = context.SemanticModel.GetSymbolInfo(attr);
+
+                    if (symbolInfo.Symbol is IMethodSymbol methodSymbol
+                        && methodSymbol.ContainingType.ToDisplayString() == ATTR_NAME)
+                    {
+                        return enumDeclaration;
+                    }
+                }
+            }
+            return null;
         }
 
         private static void GenerateEnumBasedEditorClass(SourceProductionContext context, ImmutableArray<EnumDeclarationSyntax> enums)
         {
-            foreach (EnumDeclarationSyntax enumDeclaration in enums)
+            if (enums.Length == 0)
             {
-                string enumName = enumDeclaration.Identifier.Text;
-                string namespaceName = GetNamespace(enumDeclaration);
-                string source = GenerateToolDefineEditorClass(enumName, namespaceName);
-                context.AddSource($"{enumName}_ToolDefineEditor.g.cs", SourceText.From(source, Encoding.UTF8));
+                return;
             }
+
+            if (enums.Length > 1)
+            {
+                foreach (EnumDeclarationSyntax e in enums)
+                {
+                    Diagnostic diagnostic = Diagnostic.Create(DiagnosticDescriptorCollection.NF1001, e.GetLocation(), e.Identifier.Text);
+                    context.ReportDiagnostic(diagnostic);
+                }
+                return;
+            }
+
+            EnumDeclarationSyntax enumDeclaration = enums.First();
+            string enumName = enumDeclaration.Identifier.Text;
+            string namespaceName = GetNamespace(enumDeclaration);
+            string source = GenerateToolDefineEditorClass(enumName, namespaceName);
+            context.AddSource($"{enumName}_ToolDefineEditor.g.cs", SourceText.From(source, Encoding.UTF8));
         }
 
         private static string GetNamespace(SyntaxNode syntaxNode)
         {
             NamespaceDeclarationSyntax namespaceNode = syntaxNode.Ancestors().OfType<NamespaceDeclarationSyntax>().FirstOrDefault();
-            return namespaceNode?.Name.ToString() ?? "GlobalNamespace";
+            if (namespaceNode == null)
+            {
+                return null;
+            }
+            return namespaceNode.Name.ToString();
         }
 
         private static string GenerateToolDefineEditorClass(string enumName, string namespaceName)
         {
             string usingStatement = $"using {namespaceName};";
-            if (namespaceName == "GlobalNamespace")
+            if (string.IsNullOrEmpty(namespaceName))
             {
                 usingStatement = string.Empty;
             }
@@ -77,7 +106,7 @@ namespace NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor.Generated
     {{
         static Tool_DefineEditor()
         {{
-            var pre_defines = Enum.GetNames(typeof({enumName})).ToList();
+            List<string> pre_defines = Enum.GetNames(typeof({enumName})).ToList();
             Init(pre_defines);
         }}
 
