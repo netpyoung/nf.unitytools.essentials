@@ -1,5 +1,4 @@
 ﻿using Microsoft.CodeAnalysis;
-using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
 using System.Collections.Immutable;
@@ -17,36 +16,16 @@ namespace NF.UnityTools.Essentials.Generator
         public void Initialize(IncrementalGeneratorInitializationContext context)
         {
             IncrementalValueProvider<ImmutableArray<EnumDeclarationSyntax>> enumDeclarations = context.SyntaxProvider
-                .CreateSyntaxProvider(IsEnumTargetForGeneration, GetSemanticTargetForGeneration)
+                .CreateSyntaxProvider(IsEnumTargetForGeneration, Util.CreateEnumSemanticTargetForGeneration(ATTR_NAME))
                 .Where(static m => m is not null)
-                .Select(static (m, _) => m!)
+                .Select(static (m, _) => m)
                 .Collect();
             context.RegisterSourceOutput(enumDeclarations, GenerateEnumBasedEditorClass);
         }
 
-        private bool IsEnumTargetForGeneration(SyntaxNode node, CancellationToken token)
+        private static bool IsEnumTargetForGeneration(SyntaxNode node, CancellationToken token)
         {
             return node is EnumDeclarationSyntax;
-        }
-
-        private static EnumDeclarationSyntax GetSemanticTargetForGeneration(GeneratorSyntaxContext context, CancellationToken token)
-        {
-            EnumDeclarationSyntax enumDeclaration = (EnumDeclarationSyntax)context.Node;
-
-            foreach (AttributeListSyntax attrList in enumDeclaration.AttributeLists)
-            {
-                foreach (AttributeSyntax attr in attrList.Attributes)
-                {
-                    SymbolInfo symbolInfo = context.SemanticModel.GetSymbolInfo(attr);
-
-                    if (symbolInfo.Symbol is IMethodSymbol methodSymbol
-                        && methodSymbol.ContainingType.ToDisplayString() == ATTR_NAME)
-                    {
-                        return enumDeclaration;
-                    }
-                }
-            }
-            return null;
         }
 
         private static void GenerateEnumBasedEditorClass(SourceProductionContext context, ImmutableArray<EnumDeclarationSyntax> enums)
