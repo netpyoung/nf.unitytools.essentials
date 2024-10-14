@@ -12,11 +12,11 @@ namespace NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor.Generated
     {
         static Tool_DefineEditor()
         {
-            var pre_defines = Enum.GetNames(typeof(E_ENUM)).ToList();
+            List<string> pre_defines = Enum.GetNames(typeof(E_ENUM)).ToList();
             Init(pre_defines);
         }
 
-        [MenuItem("@Tool/Tool_DefineEditor HelloNamespace ")]
+        [MenuItem("@Tool/Tool_DefineEditor")]
         private static void OpenScriptDefines()
         {
             OpenWindow<Tool_DefineEditor>();
