@@ -8,6 +8,11 @@ using UnityEngine;
 
 namespace NF.UnityTools.Essentials.DefineManagement
 {
+    [AttributeUsage(AttributeTargets.Enum)]
+    public class UnityProjectDefineAttribute : Attribute
+    {
+    }
+
     /*
         public enum E_DEFINE
         {
@@ -96,6 +101,7 @@ namespace NF.UnityTools.Essentials.DefineManagement
         private void OnGUI()
         {
             EditorGUILayout.BeginHorizontal();
+            GUILayout.Label(typeof(T).ToString());
             GUILayout.Label(EditorApplication.isCompiling ? "Compiling..." : " ");
 
             GUILayout.FlexibleSpace();
