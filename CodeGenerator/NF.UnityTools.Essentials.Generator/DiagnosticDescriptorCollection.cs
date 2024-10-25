@@ -8,7 +8,7 @@ namespace NF.UnityTools.Essentials.Generator
         internal static readonly DiagnosticDescriptor NF1001 = new(
             id: "NF1001", //
             title: string.Empty,
-            messageFormat: "asdfasdf. {0}", //
+            messageFormat: "Multiple UnityProjectDefine attributes are not allowed. {0}", //
             category: "Usage",
             DiagnosticSeverity.Error,
             isEnabledByDefault: true
