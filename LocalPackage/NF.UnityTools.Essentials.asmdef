@@ -1,6 +1,6 @@
 {
     "name": "NF.UnityTools.Essentials",
-    "rootNamespace": "",
+    "rootNamespace": "NF.UnityTools.Essentials",
     "references": [],
     "includePlatforms": [
         "Editor"
