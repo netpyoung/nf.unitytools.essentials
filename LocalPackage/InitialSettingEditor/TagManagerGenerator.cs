@@ -6,6 +6,10 @@ using Object = UnityEngine.Object;
 
 namespace NF.UnityTools.Essentials.InitialSetting
 {
+    
+    // ref: https://github.com/Thundernerd/Unity3D-LayersTagsGenerator
+    // Inspired by Unity3D-LayersTagsGenerator, but while it uses CodeDom, this implementation utilizes StringBuilder for better maintainability.
+    
     // Edit > Project Settings ... > Tags And Layers
     // ProjectSettings/TagManager.asset
 
