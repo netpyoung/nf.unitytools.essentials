@@ -14,7 +14,7 @@ namespace NF.UnityTools.Essentials.InitialSetting
         [MenuItem("@Tool/InitialSetting/Download Unity Gitignore")]
         public static void ShowWindow()
         {
-            GetWindow<GitignoreDownloader>("Gitignore Downloader");
+            GetWindow<GitignoreDownloader>(nameof(GitignoreDownloader));
         }
 
         private void OnGUI()
@@ -37,7 +37,7 @@ namespace NF.UnityTools.Essentials.InitialSetting
                 if (File.Exists(savePath))
                 {
                     Debug.LogError($".gitignore exist");
-                    return;    
+                    return;
                 }
             }
 
