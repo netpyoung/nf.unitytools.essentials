@@ -7,6 +7,8 @@ namespace NF.UnityTools.Essentials.PathEditor
 {
     public sealed class Tool_PathEditor : EditorWindow
     {
+        const string URL_LOGFILE = "https://docs.unity3d.com/Manual/log-files.html";
+
         [MenuItem("@Tool/Tool_PathEditor")]
         public static void ShowExample()
         {
@@ -38,6 +40,12 @@ namespace NF.UnityTools.Essentials.PathEditor
             {
                 Debug.Log(Application.temporaryCachePath);
                 EditorUtility.RevealInFinder(Application.temporaryCachePath);
+            }
+
+            if (GUILayout.Button(URL_LOGFILE, EditorStyles.linkLabel))
+            {
+                Debug.Log(URL_LOGFILE);
+                Application.OpenURL(URL_LOGFILE);
             }
 
             if (GUILayout.Button("Application.consoleLogPath"))
