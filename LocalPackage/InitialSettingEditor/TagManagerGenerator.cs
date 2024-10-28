@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace NF.UnityTools.Essentials.InitialSetting
+namespace NF.UnityTools.Essentials.InitialSettingEditor
 {
     
     // ref: https://github.com/Thundernerd/Unity3D-LayersTagsGenerator

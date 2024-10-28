@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace NF.UnityTools.Essentials
+namespace NF.UnityTools.Essentials.PathEditor
 {
     public sealed class Tool_PathEditor : EditorWindow
     {

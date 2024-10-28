@@ -9,8 +9,8 @@ namespace NF.UnityTools.Essentials.FileRevealer
     [InitializeOnLoad]
     public static class Tool_FileRevealer
     {
-        static GUIContent mSearchIcon;
-        static GUIContent mDarkSearchIcon;
+        static GUIContent _searchIcon;
+        static GUIContent _darkSearchIcon;
 
         static Tool_FileRevealer()
         {
@@ -23,8 +23,8 @@ namespace NF.UnityTools.Essentials.FileRevealer
         {
             // ref: https://github.com/halak/unity-editor-icons
 
-            mSearchIcon = EditorGUIUtility.IconContent("Search Icon");
-            mDarkSearchIcon = EditorGUIUtility.IconContent("d_Search Icon");
+            _searchIcon = EditorGUIUtility.IconContent("Search Icon");
+            _darkSearchIcon = EditorGUIUtility.IconContent("d_Search Icon");
         }
 
         static void AddRevealerIcon(string guid, Rect rect)
@@ -59,12 +59,12 @@ namespace NF.UnityTools.Essentials.FileRevealer
 
         static GUIContent GetIcon()
         {
-            if (mDarkSearchIcon == null || mSearchIcon == null)
+            if (_darkSearchIcon == null || _searchIcon == null)
             {
                 LoadIcon();
             }
 
-            return EditorGUIUtility.isProSkin ? mDarkSearchIcon : mSearchIcon; ;
+            return EditorGUIUtility.isProSkin ? _darkSearchIcon : _searchIcon; ;
         }
 
         static bool IsSelected(string guid)

@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace NF.UnityTools.Essentials.InitialSetting
+namespace NF.UnityTools.Essentials.InitialSettingEditor
 {
     public class GitignoreDownloader : EditorWindow
     {
