@@ -12,7 +12,7 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
 {
     public class CheckNews : EditorWindow
     {
-        private readonly string _unityVersion = Application.unityVersion;
+        private static string _unityVersionStr = Application.unityVersion;
 
         private readonly string[] _urls = new string[]
         {
@@ -25,67 +25,31 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
         private static volatile int _lockFetch = 0;
         private const string InitialUrl = "https://symbolserver.unity3d.com/000Admin/history.txt";
         private static string[] _unityVersionStrs;
+        private static UnityVersion _currUnityVersion;
         private static UnityVersion[] _unityVersions;
         private static SeachableComboBox _seachableComboBox;
 
         [MenuItem("@Tool/InitialSetting/CheckNews")]
         public static void ShowWindow()
         {
-            _lockFetch = 0;
             GetWindow<CheckNews>(nameof(CheckNews));
+        }
+
+        private void CreateGUI()
+        {
+            _lockFetch = 0;
+            _unityVersionStr = Application.unityVersion;
+            if (UnityVersion.TryParse(_unityVersionStr, out UnityVersion ver))
+            {
+                _currUnityVersion = ver;
+            }
         }
 
         private void OnGUI()
         {
             GUI.skin.button.alignment = TextAnchor.MiddleLeft;
 
-            EditorGUILayout.LabelField(_unityVersion, EditorStyles.boldLabel);
-
-            if (GUILayout.Button("editor/archive"))
-            {
-                string url = "https://unity.com/releases/editor/archive";
-                Debug.Log($"url: {url}");
-                Application.OpenURL(url);
-            }
-
-            if (GUILayout.Button("whats-new"))
-            {
-                string version = _unityVersion;
-                Match match = Regex.Match(version, @"^(\d+\.\d+\.\d+)");
-                if (match.Success)
-                {
-                    version = match.Groups[1].Value;
-                }
-
-                string url = $"https://unity.com/releases/editor/whats-new/{version}";
-                Debug.Log($"url: {url}");
-                Application.OpenURL(url);
-            }
-
-            if (GUILayout.Button("ScriptReference"))
-            {
-                string version = _unityVersion;
-                Match match = Regex.Match(version, @"^(\d+\.\d+)");
-                if (match.Success)
-                {
-                    version = match.Groups[1].Value;
-                }
-
-                // 6000.0
-                string url = $"https://docs.unity3d.com/{version}/Documentation/ScriptReference/";
-                Debug.Log($"url: {url}");
-                Application.OpenURL(url);
-            }
-
-
-            foreach (string url in _urls)
-            {
-                if (GUILayout.Button(ExtractRepoName(url)))
-                {
-                    Debug.Log($"url: {url}");
-                    Application.OpenURL(url);
-                }
-            }
+            EditorGUILayout.LabelField(_unityVersionStr, EditorStyles.boldLabel);
 
             using (new EditorGUI.DisabledScope(_lockFetch != 0))
             {
@@ -100,6 +64,40 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
             {
                 _seachableComboBox.OnGUI();
             }
+            
+            if (GUILayout.Button("editor/archive"))
+            {
+                string url = "https://unity.com/releases/editor/archive";
+                Debug.Log($"url: {url}");
+                Application.OpenURL(url);
+            }
+
+            if (GUILayout.Button($"({_currUnityVersion.Major}.{_currUnityVersion.Minor}.{_currUnityVersion.Patch}) whats-new"))
+            {
+                string version = $"{_currUnityVersion.Major}.{_currUnityVersion.Minor}.{_currUnityVersion.Patch}";
+                string url = $"https://unity.com/releases/editor/whats-new/{version}";
+                Debug.Log($"url: {url}");
+                Application.OpenURL(url);
+            }
+
+            if (GUILayout.Button($"({_currUnityVersion.Major}.{_currUnityVersion.Minor}) ScriptReference"))
+            {
+                string version = $"{_currUnityVersion.Major}.{_currUnityVersion.Minor}";
+                string url = $"https://docs.unity3d.com/{version}/Documentation/ScriptReference/";
+                Debug.Log($"url: {url}");
+                Application.OpenURL(url);
+            }
+
+            EditorGUILayout.LabelField("source", EditorStyles.boldLabel);
+            foreach (string url in _urls)
+            {
+                if (GUILayout.Button(ExtractRepoName(url)))
+                {
+                    Debug.Log($"url: {url}");
+                    Application.OpenURL(url);
+                }
+            }
+
         }
 
         static string ExtractRepoName(string url)
@@ -137,7 +135,7 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
                         }
                     }
 
-                    unityVersions.Sort();
+                    unityVersions.Sort((a, b) => b.CompareTo(a));
                     _unityVersions = unityVersions.ToArray();
                     _unityVersionStrs = unityVersions.Select(x => x.ToString()).ToArray();
                     _seachableComboBox = new SeachableComboBox(_unityVersionStrs);

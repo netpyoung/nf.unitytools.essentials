@@ -17,7 +17,7 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
             _InputOptions = options;
         }
 
-        public void OnGUI()
+        public string OnGUI()
         {
             EditorGUI.BeginChangeCheck();
             _selectedIndex = EditorGUILayout.Popup("Select Option", _selectedIndex, _currOptions);
@@ -32,6 +32,12 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
             {
                 UpdateComboBoxSelection();
             }
+            
+            if (_selectedIndex >= 0 && _selectedIndex < _currOptions.Length)
+            {
+                return _currOptions[_selectedIndex];
+            }
+            return string.Empty;
         }
 
         private void UpdateComboBoxSelection()
