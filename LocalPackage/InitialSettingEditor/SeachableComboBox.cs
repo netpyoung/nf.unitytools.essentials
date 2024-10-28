@@ -1,23 +1,26 @@
 ﻿using System;
+using System.Linq;
 using UnityEditor;
 
 namespace NF.UnityTools.Essentials.InitialSettingEditor
 {
     public sealed class SeachableComboBox
     {
-        private string[] _options = null;
+        private string[] _currOptions = null;
+        private string[] _InputOptions = null;
         private int _selectedIndex = 0;
         private string _inputText = string.Empty;
 
         public SeachableComboBox(string[] options)
         {
-            _options = options;
+            _currOptions = options;
+            _InputOptions = options;
         }
 
         public void OnGUI()
         {
             EditorGUI.BeginChangeCheck();
-            _selectedIndex = EditorGUILayout.Popup("Select Option", _selectedIndex, _options);
+            _selectedIndex = EditorGUILayout.Popup("Select Option", _selectedIndex, _currOptions);
             if (EditorGUI.EndChangeCheck())
             {
                 UpdateInputText();
@@ -33,7 +36,8 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
 
         private void UpdateComboBoxSelection()
         {
-            int newIndex = Array.FindIndex(_options,
+            _currOptions = _InputOptions.Where(x => x.Contains(_inputText)).ToArray();
+            int newIndex = Array.FindIndex(_currOptions,
                 option => option.Contains(_inputText, StringComparison.OrdinalIgnoreCase));
 
             if (newIndex != -1)
@@ -44,9 +48,9 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
 
         private void UpdateInputText()
         {
-            if (_selectedIndex >= 0 && _selectedIndex < _options.Length)
+            if (_selectedIndex >= 0 && _selectedIndex < _currOptions.Length)
             {
-                _inputText = _options[_selectedIndex];
+                _inputText = _currOptions[_selectedIndex];
             }
         }
     }
