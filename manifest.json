@@ -1,0 +1,288 @@
+{
+  "source_base_path": "/home/runner/work/nf.unitytools.essentials/nf.unitytools.essentials/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.DefineManagement.UnityProjectDefineAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.DefineManagement.UnityProjectDefineAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.DefineManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.DefineManagement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.FileRevealer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.FileRevealer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.InitialSettingEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityTools.Essentials.PathEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityTools.Essentials.PathEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

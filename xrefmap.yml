@@ -1,0 +1,855 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: NF.UnityTools.Essentials.DefineManagement
+  name: NF.UnityTools.Essentials.DefineManagement
+  href: api/NF.UnityTools.Essentials.DefineManagement.html
+  commentId: N:NF.UnityTools.Essentials.DefineManagement
+  fullName: NF.UnityTools.Essentials.DefineManagement
+  nameWithType: NF.UnityTools.Essentials.DefineManagement
+- uid: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1
+  name: Tool_DefineEditor<T>
+  href: api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html
+  commentId: T:NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1
+  name.vb: Tool_DefineEditor(Of T)
+  fullName: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor<T>
+  fullName.vb: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor(Of T)
+  nameWithType: Tool_DefineEditor<T>
+  nameWithType.vb: Tool_DefineEditor(Of T)
+- uid: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.ApplyDefines(`0[])
+  name: ApplyDefines(params T[])
+  href: api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html#NF_UnityTools_Essentials_DefineManagement_Tool_DefineEditor_1_ApplyDefines__0___
+  commentId: M:NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.ApplyDefines(`0[])
+  name.vb: ApplyDefines(ParamArray T())
+  fullName: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor<T>.ApplyDefines(params T[])
+  fullName.vb: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor(Of T).ApplyDefines(ParamArray T())
+  nameWithType: Tool_DefineEditor<T>.ApplyDefines(params T[])
+  nameWithType.vb: Tool_DefineEditor(Of T).ApplyDefines(ParamArray T())
+- uid: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.ApplyDefines*
+  name: ApplyDefines
+  href: api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html#NF_UnityTools_Essentials_DefineManagement_Tool_DefineEditor_1_ApplyDefines_
+  commentId: Overload:NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.ApplyDefines
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor<T>.ApplyDefines
+  fullName.vb: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor(Of T).ApplyDefines
+  nameWithType: Tool_DefineEditor<T>.ApplyDefines
+  nameWithType.vb: Tool_DefineEditor(Of T).ApplyDefines
+- uid: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.Init(System.Collections.Generic.List{System.String})
+  name: Init(List<string>)
+  href: api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html#NF_UnityTools_Essentials_DefineManagement_Tool_DefineEditor_1_Init_System_Collections_Generic_List_System_String__
+  commentId: M:NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.Init(System.Collections.Generic.List{System.String})
+  name.vb: Init(List(Of String))
+  fullName: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor<T>.Init(System.Collections.Generic.List<string>)
+  fullName.vb: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor(Of T).Init(System.Collections.Generic.List(Of String))
+  nameWithType: Tool_DefineEditor<T>.Init(List<string>)
+  nameWithType.vb: Tool_DefineEditor(Of T).Init(List(Of String))
+- uid: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.Init*
+  name: Init
+  href: api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html#NF_UnityTools_Essentials_DefineManagement_Tool_DefineEditor_1_Init_
+  commentId: Overload:NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.Init
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor<T>.Init
+  fullName.vb: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor(Of T).Init
+  nameWithType: Tool_DefineEditor<T>.Init
+  nameWithType.vb: Tool_DefineEditor(Of T).Init
+- uid: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.OpenWindow*
+  name: OpenWindow
+  href: api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html#NF_UnityTools_Essentials_DefineManagement_Tool_DefineEditor_1_OpenWindow_
+  commentId: Overload:NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.OpenWindow
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor<T>.OpenWindow
+  fullName.vb: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor(Of T).OpenWindow
+  nameWithType: Tool_DefineEditor<T>.OpenWindow
+  nameWithType.vb: Tool_DefineEditor(Of T).OpenWindow
+- uid: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.OpenWindow``1
+  name: OpenWindow<TSelf>()
+  href: api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html#NF_UnityTools_Essentials_DefineManagement_Tool_DefineEditor_1_OpenWindow__1
+  commentId: M:NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor`1.OpenWindow``1
+  name.vb: OpenWindow(Of TSelf)()
+  fullName: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor<T>.OpenWindow<TSelf>()
+  fullName.vb: NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor(Of T).OpenWindow(Of TSelf)()
+  nameWithType: Tool_DefineEditor<T>.OpenWindow<TSelf>()
+  nameWithType.vb: Tool_DefineEditor(Of T).OpenWindow(Of TSelf)()
+- uid: NF.UnityTools.Essentials.DefineManagement.UnityProjectDefineAttribute
+  name: UnityProjectDefineAttribute
+  href: api/NF.UnityTools.Essentials.DefineManagement.UnityProjectDefineAttribute.html
+  commentId: T:NF.UnityTools.Essentials.DefineManagement.UnityProjectDefineAttribute
+  fullName: NF.UnityTools.Essentials.DefineManagement.UnityProjectDefineAttribute
+  nameWithType: UnityProjectDefineAttribute
+- uid: NF.UnityTools.Essentials.FileRevealer
+  name: NF.UnityTools.Essentials.FileRevealer
+  href: api/NF.UnityTools.Essentials.FileRevealer.html
+  commentId: N:NF.UnityTools.Essentials.FileRevealer
+  fullName: NF.UnityTools.Essentials.FileRevealer
+  nameWithType: NF.UnityTools.Essentials.FileRevealer
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealer
+  name: Tool_FileRevealer
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealer.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealer
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealer
+  nameWithType: Tool_FileRevealer
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting
+  name: Tool_FileRevealerSetting
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting
+  nameWithType: Tool_FileRevealerSetting
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1
+  name: Tool_FileRevealerSetting.AEditorPrefsItem<T>
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1
+  name.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T)
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T)
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T)
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.#ctor(System.String,System.String,`0)
+  name: AEditorPrefsItem(string, string, T)
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1__ctor_System_String_System_String__0_
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.#ctor(System.String,System.String,`0)
+  name.vb: New(String, String, T)
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.AEditorPrefsItem(string, string, T)
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).New(String, String, T)
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.AEditorPrefsItem(string, string, T)
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).New(String, String, T)
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.#ctor*
+  name: AEditorPrefsItem
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.AEditorPrefsItem
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).New
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.AEditorPrefsItem
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).New
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.DefaultValue
+  name: DefaultValue
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_DefaultValue
+  commentId: F:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.DefaultValue
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.DefaultValue
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).DefaultValue
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.DefaultValue
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).DefaultValue
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Draw
+  name: Draw()
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_Draw
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Draw
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.Draw()
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Draw()
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.Draw()
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Draw()
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Draw*
+  name: Draw
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_Draw_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Draw
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.Draw
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Draw
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.Draw
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Draw
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Key
+  name: Key
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_Key
+  commentId: F:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Key
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.Key
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Key
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.Key
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Key
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Label
+  name: Label
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_Label
+  commentId: F:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Label
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.Label
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Label
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.Label
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Label
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Value
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_Value
+  commentId: P:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Value
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.Value
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Value
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.Value
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Value*
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_Value_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.Value
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.Value
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Value
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.Value
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.op_Implicit(NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem{`0})~`0
+  name: implicit operator T(AEditorPrefsItem<T>)
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_op_Implicit_NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem__0____0
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.op_Implicit(NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem{`0})~`0
+  name.vb: CType(AEditorPrefsItem(Of T))
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.implicit operator T(NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>)
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).CType(NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T))
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.implicit operator T(Tool_FileRevealerSetting.AEditorPrefsItem<T>)
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).CType(Tool_FileRevealerSetting.AEditorPrefsItem(Of T))
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.op_Implicit*
+  name: implicit operator
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem-1.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_AEditorPrefsItem_1_op_Implicit_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem<T>.implicit operator
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.AEditorPrefsItem(Of T).CType
+  nameWithType: Tool_FileRevealerSetting.AEditorPrefsItem<T>.implicit operator
+  nameWithType.vb: Tool_FileRevealerSetting.AEditorPrefsItem(Of T).CType
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt
+  name: Tool_FileRevealerSetting.BaseEditorPrefsInt
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt
+  nameWithType: Tool_FileRevealerSetting.BaseEditorPrefsInt
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.#ctor(System.String,System.String,System.Int32)
+  name: BaseEditorPrefsInt(string, string, int)
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_BaseEditorPrefsInt__ctor_System_String_System_String_System_Int32_
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.#ctor(System.String,System.String,System.Int32)
+  name.vb: New(String, String, Integer)
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.BaseEditorPrefsInt(string, string, int)
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.New(String, String, Integer)
+  nameWithType: Tool_FileRevealerSetting.BaseEditorPrefsInt.BaseEditorPrefsInt(string, string, int)
+  nameWithType.vb: Tool_FileRevealerSetting.BaseEditorPrefsInt.New(String, String, Integer)
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.#ctor*
+  name: BaseEditorPrefsInt
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_BaseEditorPrefsInt__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.BaseEditorPrefsInt
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.New
+  nameWithType: Tool_FileRevealerSetting.BaseEditorPrefsInt.BaseEditorPrefsInt
+  nameWithType.vb: Tool_FileRevealerSetting.BaseEditorPrefsInt.New
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw
+  name: Draw()
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_BaseEditorPrefsInt_Draw
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw()
+  nameWithType: Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw()
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw*
+  name: Draw
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_BaseEditorPrefsInt_Draw_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw
+  nameWithType: Tool_FileRevealerSetting.BaseEditorPrefsInt.Draw
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Value
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_BaseEditorPrefsInt_Value
+  commentId: P:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Value
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Value
+  nameWithType: Tool_FileRevealerSetting.BaseEditorPrefsInt.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Value*
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_BaseEditorPrefsInt_Value_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Value
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.BaseEditorPrefsInt.Value
+  nameWithType: Tool_FileRevealerSetting.BaseEditorPrefsInt.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool
+  name: Tool_FileRevealerSetting.EditorPrefsBool
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsBool
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.#ctor(System.String,System.String,System.Boolean)
+  name: EditorPrefsBool(string, string, bool)
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsBool__ctor_System_String_System_String_System_Boolean_
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.#ctor(System.String,System.String,System.Boolean)
+  name.vb: New(String, String, Boolean)
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.EditorPrefsBool(string, string, bool)
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.New(String, String, Boolean)
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsBool.EditorPrefsBool(string, string, bool)
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsBool.New(String, String, Boolean)
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.#ctor*
+  name: EditorPrefsBool
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsBool__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.EditorPrefsBool
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.New
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsBool.EditorPrefsBool
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsBool.New
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Draw
+  name: Draw()
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsBool_Draw
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Draw
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Draw()
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsBool.Draw()
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Draw*
+  name: Draw
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsBool_Draw_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Draw
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Draw
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsBool.Draw
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Value
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsBool_Value
+  commentId: P:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Value
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Value
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsBool.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Value*
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsBool_Value_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Value
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsBool.Value
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsBool.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor
+  name: Tool_FileRevealerSetting.EditorPrefsColor
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsColor
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.#ctor(System.String,System.String,Color)
+  name: EditorPrefsColor(string, string, Color)
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsColor__ctor_System_String_System_String_Color_
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.#ctor(System.String,System.String,Color)
+  name.vb: New(String, String, Color)
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.EditorPrefsColor(string, string, Color)
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.New(String, String, Color)
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsColor.EditorPrefsColor(string, string, Color)
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsColor.New(String, String, Color)
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.#ctor*
+  name: EditorPrefsColor
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsColor__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.EditorPrefsColor
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.New
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsColor.EditorPrefsColor
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsColor.New
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Draw
+  name: Draw()
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsColor_Draw
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Draw
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Draw()
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsColor.Draw()
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Draw*
+  name: Draw
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsColor_Draw_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Draw
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Draw
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsColor.Draw
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Value
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsColor_Value
+  commentId: P:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Value
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Value
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsColor.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Value*
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsColor_Value_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Value
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsColor.Value
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsColor.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider
+  name: Tool_FileRevealerSetting.EditorPrefsIntSlider
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsIntSlider
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.#ctor(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  name: EditorPrefsIntSlider(string, string, int, int, int)
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsIntSlider__ctor_System_String_System_String_System_Int32_System_Int32_System_Int32_
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.#ctor(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  name.vb: New(String, String, Integer, Integer, Integer)
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.EditorPrefsIntSlider(string, string, int, int, int)
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.New(String, String, Integer, Integer, Integer)
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsIntSlider.EditorPrefsIntSlider(string, string, int, int, int)
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsIntSlider.New(String, String, Integer, Integer, Integer)
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.#ctor*
+  name: EditorPrefsIntSlider
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsIntSlider__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.EditorPrefsIntSlider
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.New
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsIntSlider.EditorPrefsIntSlider
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsIntSlider.New
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw
+  name: Draw()
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsIntSlider_Draw
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw()
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw()
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw*
+  name: Draw
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsIntSlider_Draw_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsIntSlider.Draw
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString
+  name: Tool_FileRevealerSetting.EditorPrefsString
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html
+  commentId: T:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsString
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.#ctor(System.String,System.String,System.String)
+  name: EditorPrefsString(string, string, string)
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsString__ctor_System_String_System_String_System_String_
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.EditorPrefsString(string, string, string)
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.New(String, String, String)
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsString.EditorPrefsString(string, string, string)
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsString.New(String, String, String)
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.#ctor*
+  name: EditorPrefsString
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsString__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.EditorPrefsString
+  fullName.vb: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.New
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsString.EditorPrefsString
+  nameWithType.vb: Tool_FileRevealerSetting.EditorPrefsString.New
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Draw
+  name: Draw()
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsString_Draw
+  commentId: M:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Draw
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Draw()
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsString.Draw()
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Draw*
+  name: Draw
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsString_Draw_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Draw
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Draw
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsString.Draw
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Value
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsString_Value
+  commentId: P:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Value
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Value
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsString.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Value*
+  name: Value
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_EditorPrefsString_Value_
+  commentId: Overload:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Value
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.EditorPrefsString.Value
+  nameWithType: Tool_FileRevealerSetting.EditorPrefsString.Value
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.OffsetInProjectView
+  name: OffsetInProjectView
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_OffsetInProjectView
+  commentId: F:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.OffsetInProjectView
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.OffsetInProjectView
+  nameWithType: Tool_FileRevealerSetting.OffsetInProjectView
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.ShowOnHover
+  name: ShowOnHover
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_ShowOnHover
+  commentId: F:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.ShowOnHover
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.ShowOnHover
+  nameWithType: Tool_FileRevealerSetting.ShowOnHover
+- uid: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.ShowOnSelected
+  name: ShowOnSelected
+  href: api/NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.html#NF_UnityTools_Essentials_FileRevealer_Tool_FileRevealerSetting_ShowOnSelected
+  commentId: F:NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.ShowOnSelected
+  fullName: NF.UnityTools.Essentials.FileRevealer.Tool_FileRevealerSetting.ShowOnSelected
+  nameWithType: Tool_FileRevealerSetting.ShowOnSelected
+- uid: NF.UnityTools.Essentials.InitialSettingEditor
+  name: NF.UnityTools.Essentials.InitialSettingEditor
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.html
+  commentId: N:NF.UnityTools.Essentials.InitialSettingEditor
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor
+  nameWithType: NF.UnityTools.Essentials.InitialSettingEditor
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.CheckNews
+  name: CheckNews
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.html
+  commentId: T:NF.UnityTools.Essentials.InitialSettingEditor.CheckNews
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.CheckNews
+  nameWithType: CheckNews
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.ShowWindow
+  name: ShowWindow()
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.html#NF_UnityTools_Essentials_InitialSettingEditor_CheckNews_ShowWindow
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.ShowWindow
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.ShowWindow()
+  nameWithType: CheckNews.ShowWindow()
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.ShowWindow*
+  name: ShowWindow
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.html#NF_UnityTools_Essentials_InitialSettingEditor_CheckNews_ShowWindow_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.ShowWindow
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.CheckNews.ShowWindow
+  nameWithType: CheckNews.ShowWindow
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader
+  name: GitignoreDownloader
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.html
+  commentId: T:NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader
+  nameWithType: GitignoreDownloader
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.ShowWindow
+  name: ShowWindow()
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.html#NF_UnityTools_Essentials_InitialSettingEditor_GitignoreDownloader_ShowWindow
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.ShowWindow
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.ShowWindow()
+  nameWithType: GitignoreDownloader.ShowWindow()
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.ShowWindow*
+  name: ShowWindow
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.html#NF_UnityTools_Essentials_InitialSettingEditor_GitignoreDownloader_ShowWindow_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.ShowWindow
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.GitignoreDownloader.ShowWindow
+  nameWithType: GitignoreDownloader.ShowWindow
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox
+  name: SeachableComboBox
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.html
+  commentId: T:NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox
+  nameWithType: SeachableComboBox
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.#ctor(System.String[])
+  name: SeachableComboBox(string[])
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.html#NF_UnityTools_Essentials_InitialSettingEditor_SeachableComboBox__ctor_System_String___
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.#ctor(System.String[])
+  name.vb: New(String())
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.SeachableComboBox(string[])
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.New(String())
+  nameWithType: SeachableComboBox.SeachableComboBox(string[])
+  nameWithType.vb: SeachableComboBox.New(String())
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.#ctor*
+  name: SeachableComboBox
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.html#NF_UnityTools_Essentials_InitialSettingEditor_SeachableComboBox__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.SeachableComboBox
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.New
+  nameWithType: SeachableComboBox.SeachableComboBox
+  nameWithType.vb: SeachableComboBox.New
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.OnGUI
+  name: OnGUI()
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.html#NF_UnityTools_Essentials_InitialSettingEditor_SeachableComboBox_OnGUI
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.OnGUI
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.OnGUI()
+  nameWithType: SeachableComboBox.OnGUI()
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.OnGUI*
+  name: OnGUI
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.html#NF_UnityTools_Essentials_InitialSettingEditor_SeachableComboBox_OnGUI_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.OnGUI
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.SeachableComboBox.OnGUI
+  nameWithType: SeachableComboBox.OnGUI
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator
+  name: TagManagerGenerator
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.html
+  commentId: T:NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator
+  nameWithType: TagManagerGenerator
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.ShowWindow
+  name: ShowWindow()
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.html#NF_UnityTools_Essentials_InitialSettingEditor_TagManagerGenerator_ShowWindow
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.ShowWindow
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.ShowWindow()
+  nameWithType: TagManagerGenerator.ShowWindow()
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.ShowWindow*
+  name: ShowWindow
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.html#NF_UnityTools_Essentials_InitialSettingEditor_TagManagerGenerator_ShowWindow_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.ShowWindow
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.TagManagerGenerator.ShowWindow
+  nameWithType: TagManagerGenerator.ShowWindow
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion
+  name: UnityVersion
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html
+  commentId: T:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion
+  nameWithType: UnityVersion
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.#ctor(System.Int32,System.Int32,System.Int32,System.String)
+  name: UnityVersion(int, int, int, string)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion__ctor_System_Int32_System_Int32_System_Int32_System_String_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.#ctor(System.Int32,System.Int32,System.Int32,System.String)
+  name.vb: New(Integer, Integer, Integer, String)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.UnityVersion(int, int, int, string)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.New(Integer, Integer, Integer, String)
+  nameWithType: UnityVersion.UnityVersion(int, int, int, string)
+  nameWithType.vb: UnityVersion.New(Integer, Integer, Integer, String)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.#ctor*
+  name: UnityVersion
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion__ctor_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.UnityVersion
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.New
+  nameWithType: UnityVersion.UnityVersion
+  nameWithType.vb: UnityVersion.New
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.CompareTo(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: CompareTo(UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_CompareTo_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.CompareTo(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.CompareTo(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.CompareTo(UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.CompareTo*
+  name: CompareTo
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_CompareTo_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.CompareTo
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.CompareTo
+  nameWithType: UnityVersion.CompareTo
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: Equals(UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Equals_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.Equals(UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals(System.Object)
+  name: Equals(object)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Equals_System_Object_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals(object)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals(Object)
+  nameWithType: UnityVersion.Equals(object)
+  nameWithType.vb: UnityVersion.Equals(Object)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals*
+  name: Equals
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Equals_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Equals
+  nameWithType: UnityVersion.Equals
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.GetHashCode
+  name: GetHashCode()
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_GetHashCode
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.GetHashCode
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.GetHashCode()
+  nameWithType: UnityVersion.GetHashCode()
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.GetHashCode*
+  name: GetHashCode
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_GetHashCode_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.GetHashCode
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.GetHashCode
+  nameWithType: UnityVersion.GetHashCode
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Major
+  name: Major
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Major
+  commentId: P:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Major
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Major
+  nameWithType: UnityVersion.Major
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Major*
+  name: Major
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Major_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Major
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Major
+  nameWithType: UnityVersion.Major
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Minor
+  name: Minor
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Minor
+  commentId: P:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Minor
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Minor
+  nameWithType: UnityVersion.Minor
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Minor*
+  name: Minor
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Minor_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Minor
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Minor
+  nameWithType: UnityVersion.Minor
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Patch
+  name: Patch
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Patch
+  commentId: P:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Patch
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Patch
+  nameWithType: UnityVersion.Patch
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Patch*
+  name: Patch
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Patch_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Patch
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Patch
+  nameWithType: UnityVersion.Patch
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Suffix
+  name: Suffix
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Suffix
+  commentId: P:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Suffix
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Suffix
+  nameWithType: UnityVersion.Suffix
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Suffix*
+  name: Suffix
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_Suffix_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Suffix
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.Suffix
+  nameWithType: UnityVersion.Suffix
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.ToString
+  name: ToString()
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_ToString
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.ToString
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.ToString()
+  nameWithType: UnityVersion.ToString()
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.ToString*
+  name: ToString
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_ToString_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.ToString
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.ToString
+  nameWithType: UnityVersion.ToString
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.TryParse(System.String,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion@)
+  name: TryParse(string, out UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_TryParse_System_String_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion__
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.TryParse(System.String,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion@)
+  name.vb: TryParse(String, UnityVersion)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.TryParse(string, out NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.TryParse(String, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.TryParse(string, out UnityVersion)
+  nameWithType.vb: UnityVersion.TryParse(String, UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.TryParse*
+  name: TryParse
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_TryParse_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.TryParse
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.TryParse
+  nameWithType: UnityVersion.TryParse
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Equality(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: operator ==(UnityVersion, UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_Equality_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Equality(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name.vb: =(UnityVersion, UnityVersion)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator ==(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.=(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.operator ==(UnityVersion, UnityVersion)
+  nameWithType.vb: UnityVersion.=(UnityVersion, UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Equality*
+  name: operator ==
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_Equality_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator ==
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.=
+  nameWithType: UnityVersion.operator ==
+  nameWithType.vb: UnityVersion.=
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThan(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: operator >(UnityVersion, UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_GreaterThan_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThan(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name.vb: '>(UnityVersion, UnityVersion)'
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator >(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.>(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.operator >(UnityVersion, UnityVersion)
+  nameWithType.vb: UnityVersion.>(UnityVersion, UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThan*
+  name: operator >
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_GreaterThan_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThan
+  isSpec: "True"
+  name.vb: '>'
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator >
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.>
+  nameWithType: UnityVersion.operator >
+  nameWithType.vb: UnityVersion.>
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThanOrEqual(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: operator >=(UnityVersion, UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_GreaterThanOrEqual_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThanOrEqual(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name.vb: '>=(UnityVersion, UnityVersion)'
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator >=(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.>=(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.operator >=(UnityVersion, UnityVersion)
+  nameWithType.vb: UnityVersion.>=(UnityVersion, UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThanOrEqual*
+  name: operator >=
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_GreaterThanOrEqual_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_GreaterThanOrEqual
+  isSpec: "True"
+  name.vb: '>='
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator >=
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.>=
+  nameWithType: UnityVersion.operator >=
+  nameWithType.vb: UnityVersion.>=
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Inequality(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: operator !=(UnityVersion, UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_Inequality_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Inequality(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name.vb: <>(UnityVersion, UnityVersion)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator !=(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.<>(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.operator !=(UnityVersion, UnityVersion)
+  nameWithType.vb: UnityVersion.<>(UnityVersion, UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Inequality*
+  name: operator !=
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_Inequality_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator !=
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.<>
+  nameWithType: UnityVersion.operator !=
+  nameWithType.vb: UnityVersion.<>
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThan(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: operator <(UnityVersion, UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_LessThan_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThan(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name.vb: <(UnityVersion, UnityVersion)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator <(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.<(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.operator <(UnityVersion, UnityVersion)
+  nameWithType.vb: UnityVersion.<(UnityVersion, UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThan*
+  name: operator <
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_LessThan_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThan
+  isSpec: "True"
+  name.vb: <
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator <
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.<
+  nameWithType: UnityVersion.operator <
+  nameWithType.vb: UnityVersion.<
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThanOrEqual(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name: operator <=(UnityVersion, UnityVersion)
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_LessThanOrEqual_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_
+  commentId: M:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThanOrEqual(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion,NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  name.vb: <=(UnityVersion, UnityVersion)
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator <=(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.<=(NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion, NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion)
+  nameWithType: UnityVersion.operator <=(UnityVersion, UnityVersion)
+  nameWithType.vb: UnityVersion.<=(UnityVersion, UnityVersion)
+- uid: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThanOrEqual*
+  name: operator <=
+  href: api/NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.html#NF_UnityTools_Essentials_InitialSettingEditor_UnityVersion_op_LessThanOrEqual_
+  commentId: Overload:NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.op_LessThanOrEqual
+  isSpec: "True"
+  name.vb: <=
+  fullName: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.operator <=
+  fullName.vb: NF.UnityTools.Essentials.InitialSettingEditor.UnityVersion.<=
+  nameWithType: UnityVersion.operator <=
+  nameWithType.vb: UnityVersion.<=
+- uid: NF.UnityTools.Essentials.PathEditor
+  name: NF.UnityTools.Essentials.PathEditor
+  href: api/NF.UnityTools.Essentials.PathEditor.html
+  commentId: N:NF.UnityTools.Essentials.PathEditor
+  fullName: NF.UnityTools.Essentials.PathEditor
+  nameWithType: NF.UnityTools.Essentials.PathEditor
+- uid: NF.UnityTools.Essentials.PathEditor.Tool_PathEditor
+  name: Tool_PathEditor
+  href: api/NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.html
+  commentId: T:NF.UnityTools.Essentials.PathEditor.Tool_PathEditor
+  fullName: NF.UnityTools.Essentials.PathEditor.Tool_PathEditor
+  nameWithType: Tool_PathEditor
+- uid: NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.ShowExample
+  name: ShowExample()
+  href: api/NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.html#NF_UnityTools_Essentials_PathEditor_Tool_PathEditor_ShowExample
+  commentId: M:NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.ShowExample
+  fullName: NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.ShowExample()
+  nameWithType: Tool_PathEditor.ShowExample()
+- uid: NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.ShowExample*
+  name: ShowExample
+  href: api/NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.html#NF_UnityTools_Essentials_PathEditor_Tool_PathEditor_ShowExample_
+  commentId: Overload:NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.ShowExample
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.PathEditor.Tool_PathEditor.ShowExample
+  nameWithType: Tool_PathEditor.ShowExample
