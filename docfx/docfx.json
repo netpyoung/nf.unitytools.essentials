@@ -9,6 +9,7 @@
           ]
         }
       ],
+      "allowCompilationErrors": true,
       "dest": "api"
     }
   ],
@@ -36,8 +37,8 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "nf.unitylibs.utils",
-      "_appTitle": "nf.unitylibs.utils",
+      "_appName": "nf.unitytools.essentials",
+      "_appTitle": "nf.unitytools.essentials",
       "_enableSearch": true,
       "pdf": false
     }
