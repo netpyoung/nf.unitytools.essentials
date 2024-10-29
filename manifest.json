@@ -258,6 +258,46 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/CheckNews.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/CheckNews.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitignoreDownloader.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitignoreDownloader.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PathEditor.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/PathEditor.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TagManagerGenerator.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/TagManagerGenerator.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/define_editor/attribute.webp",
       "output": {
         "resource": {
