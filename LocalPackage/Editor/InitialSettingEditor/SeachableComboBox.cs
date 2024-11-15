@@ -6,8 +6,8 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
 {
     public sealed class SeachableComboBox
     {
-        private string[] _currOptions = null;
-        private string[] _InputOptions = null;
+        private string[] _currOptions = Array.Empty<string>();
+        private string[] _InputOptions = Array.Empty<string>();
         private int _selectedIndex = 0;
         private string _inputText = string.Empty;
 

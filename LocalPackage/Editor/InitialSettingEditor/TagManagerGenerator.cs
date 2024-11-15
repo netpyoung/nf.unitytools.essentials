@@ -32,29 +32,29 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
             GetWindow<TagManagerGenerator>(nameof(TagManagerGenerator));
         }
 
-        private SerializedObject _tagManager;
+        private SerializedObject? _tagManagerOrNull;
 
         private void OnEnable()
         {
             Object tagManagerAsset = AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset")[0];
-            _tagManager = new SerializedObject(tagManagerAsset);
+            _tagManagerOrNull = new SerializedObject(tagManagerAsset);
         }
 
         private void OnDisable()
         {
-            if (_tagManager != null)
+            if (_tagManagerOrNull != null)
             {
-                _tagManager.Dispose();
-                _tagManager = null;
+                _tagManagerOrNull.Dispose();
+                _tagManagerOrNull = null;
             }
         }
 
         private void OnDestroy()
         {
-            if (_tagManager != null)
+            if (_tagManagerOrNull != null)
             {
-                _tagManager.Dispose();
-                _tagManager = null;
+                _tagManagerOrNull.Dispose();
+                _tagManagerOrNull = null;
             }
 
             EditorUtility.UnloadUnusedAssetsImmediate();
@@ -66,12 +66,12 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
 
             if (GUILayout.Button("Generate Classes"))
             {
-                if (_tagManager == null)
+                if (_tagManagerOrNull == null)
                 {
                     return;
                 }
 
-                _tagManager.Update();
+                _tagManagerOrNull.Update();
 
                 string outDir = $"{Application.dataPath}/Generated";
                 try
@@ -112,7 +112,7 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
 
         void GenerateTagClass(string outDir)
         {
-            SerializedProperty tags = _tagManager.FindProperty("tags");
+            SerializedProperty tags = _tagManagerOrNull!.FindProperty("tags");
             StringBuilder sb = new StringBuilder();
             sb.Append(@$"
 // ********************************************
@@ -137,7 +137,7 @@ public static class Tag
 
         void GenerateLayerClass(string outDir)
         {
-            SerializedProperty p = _tagManager.FindProperty("layers");
+            SerializedProperty p = _tagManagerOrNull!.FindProperty("layers");
             StringBuilder sb = new StringBuilder();
             sb.Append(@$"
 // ********************************************
@@ -212,7 +212,7 @@ public enum E_LAYER_FLAG : int
 
         void GenerateSortingLayerClass(string outDir)
         {
-            SerializedProperty p = _tagManager.FindProperty("m_SortingLayers");
+            SerializedProperty p = _tagManagerOrNull!.FindProperty("m_SortingLayers");
             StringBuilder sb = new StringBuilder();
             sb.Append(@$"
 // ********************************************
@@ -258,7 +258,7 @@ public static class SortingLayerID
 
         void GenerateRenderingLayerClass(string outDir)
         {
-            SerializedProperty p = _tagManager.FindProperty("m_RenderingLayers");
+            SerializedProperty p = _tagManagerOrNull!.FindProperty("m_RenderingLayers");
             StringBuilder sb = new StringBuilder();
             sb.Append(@$"
 // ********************************************

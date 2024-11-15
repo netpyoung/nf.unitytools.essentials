@@ -9,8 +9,8 @@ namespace NF.UnityTools.Essentials.FileRevealer
     [InitializeOnLoad]
     public static class Tool_FileRevealer
     {
-        static GUIContent _searchIcon;
-        static GUIContent _darkSearchIcon;
+        static GUIContent? _searchIcon;
+        static GUIContent? _darkSearchIcon;
 
         static Tool_FileRevealer()
         {
@@ -57,14 +57,14 @@ namespace NF.UnityTools.Essentials.FileRevealer
             EditorApplication.RepaintProjectWindow();
         }
 
-        static GUIContent GetIcon()
+        static GUIContent? GetIcon()
         {
             if (_darkSearchIcon == null || _searchIcon == null)
             {
                 LoadIcon();
             }
 
-            return EditorGUIUtility.isProSkin ? _darkSearchIcon : _searchIcon; ;
+            return EditorGUIUtility.isProSkin ? _darkSearchIcon : _searchIcon;
         }
 
         static bool IsSelected(string guid)

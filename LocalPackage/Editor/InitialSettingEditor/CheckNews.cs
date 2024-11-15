@@ -24,10 +24,10 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
 
         private static volatile int _lockFetch = 0;
         private const string InitialUrl = "https://symbolserver.unity3d.com/000Admin/history.txt";
-        private static string[] _unityVersionStrs;
+        private static string[] _unityVersionStrs = Array.Empty<string>();
         private static UnityVersion _currUnityVersion;
-        private static UnityVersion[] _unityVersions;
-        private static SeachableComboBox _seachableComboBox;
+        private static UnityVersion[] _unityVersions = Array.Empty<UnityVersion>();
+        private static SeachableComboBox? _seachableComboBoxOrNull = null;
 
         [MenuItem("@Tool/InitialSetting/CheckNews")]
         public static void ShowWindow()
@@ -60,9 +60,9 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
                 }
             }
 
-            if (_seachableComboBox != null)
+            if (_seachableComboBoxOrNull != null)
             {
-                _seachableComboBox.OnGUI();
+                _seachableComboBoxOrNull.OnGUI();
             }
             
             if (GUILayout.Button("editor/archive"))
@@ -138,7 +138,7 @@ namespace NF.UnityTools.Essentials.InitialSettingEditor
                     unityVersions.Sort((a, b) => b.CompareTo(a));
                     _unityVersions = unityVersions.ToArray();
                     _unityVersionStrs = unityVersions.Select(x => x.ToString()).ToArray();
-                    _seachableComboBox = new SeachableComboBox(_unityVersionStrs);
+                    _seachableComboBoxOrNull = new SeachableComboBox(_unityVersionStrs);
                 }
             }
             catch (Exception e)
