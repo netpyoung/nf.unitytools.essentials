@@ -10,7 +10,7 @@
 	</PropertyGroup>
 
 	<Target Name="PostBuild" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
-		<Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(SolutionDir)../LocalPackage/" />
+		<Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(SolutionDir)../LocalPackage/Editor/" />
 	</Target>
 
 	<ItemGroup>
