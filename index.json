@@ -1,4 +1,19 @@
 {
+  "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html": {
+    "href": "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html",
+    "title": "Class Core | nf.unitytools.essentials",
+    "keywords": "Class Core Namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor public sealed class Core : AssetModificationProcessor Inheritance object Core Properties IsCleanOnSave public static bool IsCleanOnSave { get; set; } Property Value bool Methods DeleteAllEmptyDirAndMeta(List<DirectoryInfo>) public static void DeleteAllEmptyDirAndMeta(List<DirectoryInfo> emptyDirs) Parameters emptyDirs List<DirectoryInfo> FillEmptyDirList(List<DirectoryInfo>) public static void FillEmptyDirList(List<DirectoryInfo> emptyDirs) Parameters emptyDirs List<DirectoryInfo> GetRelativePath(string, string) public static string GetRelativePath(string filespec, string folder) Parameters filespec string folder string Returns string OnWillSaveAssets(string[]) public static string[] OnWillSaveAssets(string[] paths) Parameters paths string[] Returns string[] Events OnAutoClean public static event Action? OnAutoClean Event Type Action"
+  },
+  "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html": {
+    "href": "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html",
+    "title": "Class Tool_CleanEmptyDirectoryEditor | nf.unitytools.essentials",
+    "keywords": "Class Tool_CleanEmptyDirectoryEditor Namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor public sealed class Tool_CleanEmptyDirectoryEditor : EditorWindow Inheritance object Tool_CleanEmptyDirectoryEditor Methods ConvertToAssetPath(DirectoryInfo) public static string ConvertToAssetPath(DirectoryInfo directoryInfo) Parameters directoryInfo DirectoryInfo Returns string ShowWindow() public static void ShowWindow()"
+  },
+  "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.html": {
+    "href": "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.html",
+    "title": "Namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor | nf.unitytools.essentials",
+    "keywords": "Namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor Classes Core Tool_CleanEmptyDirectoryEditor"
+  },
   "api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html": {
     "href": "api/NF.UnityTools.Essentials.DefineManagement.Tool_DefineEditor-1.html",
     "title": "Class Tool_DefineEditor<T> | nf.unitytools.essentials",

@@ -1,6 +1,133 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
+  name: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.html
+  commentId: N:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
+  nameWithType: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core
+  name: Core
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html
+  commentId: T:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core
+  nameWithType: Core
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.DeleteAllEmptyDirAndMeta(System.Collections.Generic.List{System.IO.DirectoryInfo})
+  name: DeleteAllEmptyDirAndMeta(List<DirectoryInfo>)
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_DeleteAllEmptyDirAndMeta_System_Collections_Generic_List_System_IO_DirectoryInfo__
+  commentId: M:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.DeleteAllEmptyDirAndMeta(System.Collections.Generic.List{System.IO.DirectoryInfo})
+  name.vb: DeleteAllEmptyDirAndMeta(List(Of DirectoryInfo))
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.DeleteAllEmptyDirAndMeta(System.Collections.Generic.List<System.IO.DirectoryInfo>)
+  fullName.vb: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.DeleteAllEmptyDirAndMeta(System.Collections.Generic.List(Of System.IO.DirectoryInfo))
+  nameWithType: Core.DeleteAllEmptyDirAndMeta(List<DirectoryInfo>)
+  nameWithType.vb: Core.DeleteAllEmptyDirAndMeta(List(Of DirectoryInfo))
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.DeleteAllEmptyDirAndMeta*
+  name: DeleteAllEmptyDirAndMeta
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_DeleteAllEmptyDirAndMeta_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.DeleteAllEmptyDirAndMeta
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.DeleteAllEmptyDirAndMeta
+  nameWithType: Core.DeleteAllEmptyDirAndMeta
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.FillEmptyDirList(System.Collections.Generic.List{System.IO.DirectoryInfo})
+  name: FillEmptyDirList(List<DirectoryInfo>)
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_FillEmptyDirList_System_Collections_Generic_List_System_IO_DirectoryInfo__
+  commentId: M:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.FillEmptyDirList(System.Collections.Generic.List{System.IO.DirectoryInfo})
+  name.vb: FillEmptyDirList(List(Of DirectoryInfo))
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.FillEmptyDirList(System.Collections.Generic.List<System.IO.DirectoryInfo>)
+  fullName.vb: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.FillEmptyDirList(System.Collections.Generic.List(Of System.IO.DirectoryInfo))
+  nameWithType: Core.FillEmptyDirList(List<DirectoryInfo>)
+  nameWithType.vb: Core.FillEmptyDirList(List(Of DirectoryInfo))
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.FillEmptyDirList*
+  name: FillEmptyDirList
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_FillEmptyDirList_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.FillEmptyDirList
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.FillEmptyDirList
+  nameWithType: Core.FillEmptyDirList
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.GetRelativePath(System.String,System.String)
+  name: GetRelativePath(string, string)
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_GetRelativePath_System_String_System_String_
+  commentId: M:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.GetRelativePath(System.String,System.String)
+  name.vb: GetRelativePath(String, String)
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.GetRelativePath(string, string)
+  fullName.vb: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.GetRelativePath(String, String)
+  nameWithType: Core.GetRelativePath(string, string)
+  nameWithType.vb: Core.GetRelativePath(String, String)
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.GetRelativePath*
+  name: GetRelativePath
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_GetRelativePath_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.GetRelativePath
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.GetRelativePath
+  nameWithType: Core.GetRelativePath
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.IsCleanOnSave
+  name: IsCleanOnSave
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_IsCleanOnSave
+  commentId: P:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.IsCleanOnSave
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.IsCleanOnSave
+  nameWithType: Core.IsCleanOnSave
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.IsCleanOnSave*
+  name: IsCleanOnSave
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_IsCleanOnSave_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.IsCleanOnSave
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.IsCleanOnSave
+  nameWithType: Core.IsCleanOnSave
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnAutoClean
+  name: OnAutoClean
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_OnAutoClean
+  commentId: E:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnAutoClean
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnAutoClean
+  nameWithType: Core.OnAutoClean
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnWillSaveAssets(System.String[])
+  name: OnWillSaveAssets(string[])
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_OnWillSaveAssets_System_String___
+  commentId: M:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnWillSaveAssets(System.String[])
+  name.vb: OnWillSaveAssets(String())
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnWillSaveAssets(string[])
+  fullName.vb: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnWillSaveAssets(String())
+  nameWithType: Core.OnWillSaveAssets(string[])
+  nameWithType.vb: Core.OnWillSaveAssets(String())
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnWillSaveAssets*
+  name: OnWillSaveAssets
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Core_OnWillSaveAssets_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnWillSaveAssets
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Core.OnWillSaveAssets
+  nameWithType: Core.OnWillSaveAssets
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor
+  name: Tool_CleanEmptyDirectoryEditor
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html
+  commentId: T:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor
+  nameWithType: Tool_CleanEmptyDirectoryEditor
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath(System.IO.DirectoryInfo)
+  name: ConvertToAssetPath(DirectoryInfo)
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Tool_CleanEmptyDirectoryEditor_ConvertToAssetPath_System_IO_DirectoryInfo_
+  commentId: M:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath(System.IO.DirectoryInfo)
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath(System.IO.DirectoryInfo)
+  nameWithType: Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath(DirectoryInfo)
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath*
+  name: ConvertToAssetPath
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Tool_CleanEmptyDirectoryEditor_ConvertToAssetPath_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath
+  nameWithType: Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ShowWindow
+  name: ShowWindow()
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Tool_CleanEmptyDirectoryEditor_ShowWindow
+  commentId: M:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ShowWindow
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ShowWindow()
+  nameWithType: Tool_CleanEmptyDirectoryEditor.ShowWindow()
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ShowWindow*
+  name: ShowWindow
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Tool_CleanEmptyDirectoryEditor_ShowWindow_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ShowWindow
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ShowWindow
+  nameWithType: Tool_CleanEmptyDirectoryEditor.ShowWindow
 - uid: NF.UnityTools.Essentials.DefineManagement
   name: NF.UnityTools.Essentials.DefineManagement
   href: api/NF.UnityTools.Essentials.DefineManagement.html
