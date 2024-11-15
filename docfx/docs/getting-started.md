@@ -21,3 +21,8 @@
 ## Tag Script Generator
 
 ![](../images/TagManagerGenerator.webp)
+
+
+## CleanEmptyDirectoryEditor
+
+![](../images/CleanEmptyDirectoryEditor.webp)
