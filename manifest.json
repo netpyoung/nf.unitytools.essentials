@@ -298,6 +298,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/CleanEmptyDirectoryEditor.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/CleanEmptyDirectoryEditor.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/GitignoreDownloader.webp",
       "output": {
         "resource": {

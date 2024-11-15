@@ -7,7 +7,7 @@
   "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html": {
     "href": "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html",
     "title": "Class Tool_CleanEmptyDirectoryEditor | nf.unitytools.essentials",
-    "keywords": "Class Tool_CleanEmptyDirectoryEditor Namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor public sealed class Tool_CleanEmptyDirectoryEditor : EditorWindow Inheritance object Tool_CleanEmptyDirectoryEditor Methods ConvertToAssetPath(DirectoryInfo) public static string ConvertToAssetPath(DirectoryInfo directoryInfo) Parameters directoryInfo DirectoryInfo Returns string ShowWindow() public static void ShowWindow()"
+    "keywords": "Class Tool_CleanEmptyDirectoryEditor Namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor public sealed class Tool_CleanEmptyDirectoryEditor : EditorWindow Inheritance object Tool_CleanEmptyDirectoryEditor Methods ConvertToAssetPath(DirectoryInfo) public static string ConvertToAssetPath(DirectoryInfo directoryInfo) Parameters directoryInfo DirectoryInfo Returns string GetLastCommitter(string) public static string GetLastCommitter(string filePath) Parameters filePath string Returns string ShowWindow() public static void ShowWindow()"
   },
   "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.html": {
     "href": "api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.html",
@@ -117,7 +117,7 @@
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | nf.unitytools.essentials",
-    "keywords": "Getting Started Define Editor Check News GitIgnoreDownloader Path Editor Tag Script Generator"
+    "keywords": "Getting Started Define Editor Check News GitIgnoreDownloader Path Editor Tag Script Generator CleanEmptyDirectoryEditor"
   },
   "docs/index.html": {
     "href": "docs/index.html",

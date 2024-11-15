@@ -115,6 +115,22 @@ references:
   isSpec: "True"
   fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath
   nameWithType: Tool_CleanEmptyDirectoryEditor.ConvertToAssetPath
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.GetLastCommitter(System.String)
+  name: GetLastCommitter(string)
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Tool_CleanEmptyDirectoryEditor_GetLastCommitter_System_String_
+  commentId: M:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.GetLastCommitter(System.String)
+  name.vb: GetLastCommitter(String)
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.GetLastCommitter(string)
+  fullName.vb: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.GetLastCommitter(String)
+  nameWithType: Tool_CleanEmptyDirectoryEditor.GetLastCommitter(string)
+  nameWithType.vb: Tool_CleanEmptyDirectoryEditor.GetLastCommitter(String)
+- uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.GetLastCommitter*
+  name: GetLastCommitter
+  href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Tool_CleanEmptyDirectoryEditor_GetLastCommitter_
+  commentId: Overload:NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.GetLastCommitter
+  isSpec: "True"
+  fullName: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.GetLastCommitter
+  nameWithType: Tool_CleanEmptyDirectoryEditor.GetLastCommitter
 - uid: NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.ShowWindow
   name: ShowWindow()
   href: api/NF.UnityTools.Essentials.CleanEmptyDirectoryEditor.Tool_CleanEmptyDirectoryEditor.html#NF_UnityTools_Essentials_CleanEmptyDirectoryEditor_Tool_CleanEmptyDirectoryEditor_ShowWindow
