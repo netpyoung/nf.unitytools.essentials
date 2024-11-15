@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Text;
 using UnityEditor;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 
 namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
@@ -34,7 +37,6 @@ namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
         private void OnEnable()
         {
             folderContent = EditorGUIUtility.IconContent("Folder Icon");
-
             _lastCleanOnSave = Core.IsCleanOnSave;
             Core.OnAutoClean += Core_OnAutoClean;
             _delayedNotiMsg = "Click 'Find Empty Dirs' Button.";
@@ -109,6 +111,15 @@ namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
                                 {
                                     folderContent.text = Core.GetRelativePath(dirInfo.FullName, Application.dataPath);
                                     GUILayout.Label(folderContent, GUILayout.Height(DIR_LABEL_HEIGHT));
+
+                                    string lastCommiter = GetLastCommitter($"{dirInfo.FullName}.meta");
+                                    if (string.IsNullOrEmpty(lastCommiter))
+                                    {
+                                        lastCommiter = "****";
+                                    }
+
+                                    EditorGUILayout.LabelField(lastCommiter, GUILayout.Height(DIR_LABEL_HEIGHT));
+
                                     string assetPath = ConvertToAssetPath(dirInfo);
                                     Object? obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath);
                                     EditorGUILayout.ObjectField(obj, typeof(Object), false);
@@ -152,11 +163,62 @@ namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
 
             if (!fullPath.StartsWith(projectPath))
             {
-                throw new System.Exception("The provided directory is not inside the Unity project.");
+                throw new Exception("The provided directory is not inside the Unity project.");
             }
 
             string relativePath = fullPath.Substring(projectPath.Length);
             return relativePath;
+        }
+
+
+        public static string GetLastCommitter(string filePath)
+        {
+            string command = $@"log -1 --pretty=format:""%an %ae"" -- ""{filePath}""";
+
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                FileName = "git",
+                Arguments = command,
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                CreateNoWindow = true,
+                WorkingDirectory = Path.GetDirectoryName(filePath)
+            };
+
+            using (Process process = new Process { StartInfo = startInfo })
+            {
+                StringBuilder output = new StringBuilder();
+                StringBuilder error = new StringBuilder();
+
+                process.OutputDataReceived += (sender, e) =>
+                {
+                    if (e.Data != null)
+                    {
+                        output.AppendLine(e.Data);
+                    }
+                };
+
+                process.ErrorDataReceived += (sender, e) =>
+                {
+                    if (e.Data != null)
+                    {
+                        error.AppendLine(e.Data);
+                    }
+                };
+
+                process.Start();
+                process.BeginOutputReadLine();
+                process.BeginErrorReadLine();
+                process.WaitForExit();
+
+                if (process.ExitCode != 0)
+                {
+                    throw new Exception($"Git command failed. Error: {error}");
+                }
+
+                return output.ToString().Trim();
+            }
         }
     }
 
@@ -212,7 +274,7 @@ namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
             finally
             {
                 AssetDatabase.StopAssetEditing();
-                AssetDatabase.Refresh();    
+                AssetDatabase.Refresh();
             }
         }
 
@@ -284,7 +346,7 @@ namespace NF.UnityTools.Essentials.CleanEmptyDirectoryEditor
             }
 
             Uri folderUri = new Uri(folder);
-            return Uri.UnescapeDataString(folderUri.MakeRelativeUri(pathUri).ToString().Replace('/', Path.DirectorySeparatorChar));
+            return Uri.UnescapeDataString(folderUri.MakeRelativeUri(pathUri).ToString());
         }
     }
 }
